@@ -1,7 +1,20 @@
 #include <iostream>
+#include <string>
+
+class Lexer
+{
+
+};
+
+class Parser
+{
+public:
+    std::wstring source;
+};
 
 int main()
 {
-    std::cout << "Test" << std::endl;
+    Parser parser;
+    parser.source = L"let x = 10;";
     return 0;
 }
