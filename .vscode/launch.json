@@ -2,9 +2,9 @@
     "configurations": [
     {
         "name": "(Windows) Launch",
-        "type": "cppvsdbg",
+        "type": "cppdbg",
         "request": "launch",
-        "program": "${workspaceFolder}/MVP/test.exe",
+        "program": "${workspaceFolder}/MVP/chatGPTLexer.exe",
         "args": [],
         "stopAtEntry": false,
         "cwd": "${fileDirname}",
