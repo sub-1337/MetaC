@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/Brein strom.md",
+                "file": "Standard/2. Variables and types/2.3 Строки.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brein strom"
+              "title": "2.3 Строки"
             }
           }
         ],
@@ -175,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -185,14 +186,17 @@
   },
   "active": "d68ea6386b05a3f6",
   "lastOpenFiles": [
-    "2.1 Значения и литералы.md",
+    "Standard/1. Basic/1.1 Symbols.md",
+    "Standard/2. Variables and types/2.3 Строки.md",
+    "Standard/2. Variables and types/2.2 Объявления переменной.md",
+    "Standard/2. Variables and types/2.1 basic type hierarchy.md",
     "Standard/Brein strom.md",
+    "2.1 Значения и литералы.md",
     "Welcome.md",
     "Standard/2. Variables and types/2.1 Basic type hierarchy.md",
     "6. Указатели и ссылки.md",
     "Standard/Standard.md",
     "Standard/Brain strorm.md",
-    "Standard/1. Basic/1.1 Symbols.md",
     "Standard/2. Variables and types",
     "Standard/1. Basic",
     "Untitled 1",
