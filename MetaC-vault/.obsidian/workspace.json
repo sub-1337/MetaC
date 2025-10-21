@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/Brein strom.md",
+                "file": "Standard/3. Функции/3.1 Передача параметров в функцию.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brein strom"
+              "title": "3.1 Передача параметров в функцию"
             }
           }
         ],
@@ -186,11 +186,13 @@
   },
   "active": "d68ea6386b05a3f6",
   "lastOpenFiles": [
+    "Standard/2. Variables and types/2.2 Объявления переменной.md",
+    "Standard/3. Функции/3.1 Передача параметров в функцию.md",
+    "Standard/3. Функции",
     "Standard/2. Variables and types/2.1 basic type hierarchy.md",
+    "Standard/Brein strom.md",
     "Standard/1. Basic/1.1 Symbols.md",
     "Standard/2. Variables and types/2.3 Строки.md",
-    "Standard/2. Variables and types/2.2 Объявления переменной.md",
-    "Standard/Brein strom.md",
     "2.1 Значения и литералы.md",
     "Welcome.md",
     "Standard/2. Variables and types/2.1 Basic type hierarchy.md",
