@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/3. Функции/3.1 Передача параметров в функцию.md",
+                "file": "Standard/3. Функции/3.2 Контракты.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1 Передача параметров в функцию"
+              "title": "3.2 Контракты"
             }
           }
         ],
@@ -214,6 +214,7 @@
   },
   "active": "a8f92e8e6bc2c307",
   "lastOpenFiles": [
+    "Standard/3. Функции/3.1 Передача параметров в функцию.md",
     "Standard/3. Функции/3.2 Контракты.md",
     "Standard/1. Basic/1.1 О языке.md",
     "Standard/1. Basic/1.2 Symbols.md",
@@ -221,7 +222,6 @@
     "Standard/6. Сборка/6.1 Экспорт функций.md",
     "Standard/6. Сборка/6.5 Безопасность и защита от реверса.md",
     "Standard/6. Сборка",
-    "Standard/3. Функции/3.1 Передача параметров в функцию.md",
     "Standard/2. Variables and types/2.3 Строки.md",
     "Standard/Brein strom.md",
     "Standard/2. Variables and types/2.2 Объявления переменной.md",
