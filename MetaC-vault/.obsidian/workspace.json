@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/2. Variables and types/2.5 Укахатели.md",
+                "file": "Standard/3. Функции/3.1 Передача параметров в функцию.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.5 Укахатели"
+              "title": "3.1 Передача параметров в функцию"
             }
           }
         ],
@@ -214,8 +214,11 @@
   },
   "active": "a8f92e8e6bc2c307",
   "lastOpenFiles": [
-    "Standard/6. Сборка/6.1 Экспорт функций.md",
+    "Standard/3. Функции/3.2 Контракты.md",
+    "Standard/1. Basic/1.1 О языке.md",
+    "Standard/1. Basic/1.2 Symbols.md",
     "Standard/2. Variables and types/2.5 Укахатели.md",
+    "Standard/6. Сборка/6.1 Экспорт функций.md",
     "Standard/6. Сборка/6.5 Безопасность и защита от реверса.md",
     "Standard/6. Сборка",
     "Standard/3. Функции/3.1 Передача параметров в функцию.md",
@@ -226,7 +229,6 @@
     "Standard/2. Variables and types/2.1 basic type hierarchy.md",
     "Standard/3. Функции",
     "Standard/Standard.md",
-    "Standard/1. Basic/1.1 Symbols.md",
     "2.1 Значения и литералы.md",
     "Welcome.md",
     "Standard/2. Variables and types/2.1 Basic type hierarchy.md",
