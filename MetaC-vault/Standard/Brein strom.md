@@ -5,6 +5,21 @@ func void testFn(var<ptr> a) : a == null => {print("Null check failed")}
 }
 ```
 
+Маска:
+```
+let const y = 0x2a;
+let mut x = mask::hex! 0xff(y : 1 byte);
+// x == 0xff2a
+
+let const z = 523;
+let mut k = mask::dec! 1(z : 000..999)000;
+// k == 1523000
+
+let const b = 0b111;
+let mut s = mask::bin! 0b10(b : );
+// s == 0b10111
+```
+
 несколько наборов аргументов в функции разделенные знаком ;
 func(;;) несколько групп возврата/вызова
 
