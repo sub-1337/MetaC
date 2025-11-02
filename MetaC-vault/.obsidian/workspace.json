@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/2. Variables and types/2.5 Указатели.md",
+                "file": "Standard/5. Шаблоны/5.2 Битовая мапа.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.5 Указатели"
-            }
-          },
-          {
-            "id": "bb401bc5cac93e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Standard/2. Variables and types/2.1 Базовая иерархия типов.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.1 Базовая иерархия типов"
+              "title": "5.2 Битовая мапа"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,13 +184,15 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "bb401bc5cac93e14",
+  "active": "d68ea6386b05a3f6",
   "lastOpenFiles": [
+    "Standard/2. Variables and types/2.5 Указатели.md",
+    "Standard/2. Variables and types/2.1 Базовая иерархия типов.md",
+    "Standard/5. Шаблоны/5.2 Битовая мапа.md",
+    "Standard/5. Шаблоны/5.1 Явные шаблоны.md",
     "Standard/1. Basic/1.2 Symbols.md",
     "Standard/Brein strom.md",
-    "Standard/5. Шаблоны/5.1 Явные шаблоны.md",
     "Standard/5. Шаблоны",
-    "Standard/2. Variables and types/2.1 Базовая иерархия типов.md",
     "Standard/2. Variables and types/2.2 Объявления переменной.md",
     "Standard/2. Variables and types/2.3 Строки.md",
     "Standard/6. Сборка/6.5 Безопасность и защита от реверса.md",
@@ -212,7 +200,6 @@
     "Standard/6. Сборка",
     "Standard/3. Функции/3.3 Контракты.md",
     "Standard/3. Функции/3.2 Перегрузка значений.md",
-    "Standard/2. Variables and types/2.5 Указатели.md",
     "Standard/1. Basic/1.1 О языке.md",
     "Standard/2. Variables and types/2.4 Литералы.md",
     "Standard/2. Variables and types/2.1 basic type hierarchy.md",
