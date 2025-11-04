@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/2. Variables and types/2.5 Указатели.md",
+                "file": "Standard/2. Variables and types/2.6 Типы.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2.5 Указатели"
+              "title": "2.6 Типы"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Standard/2. Variables and types/2.1 basic type hierarchy.md",
+                "file": "Standard/2. Variables and types/2.6 Типы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2.1 basic type hierarchy"
+              "title": "Backlinks for 2.6 Типы"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Standard/2. Variables and types/2.1 basic type hierarchy.md",
+                "file": "Standard/2. Variables and types/2.6 Типы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2.1 basic type hierarchy"
+              "title": "Outgoing links from 2.6 Типы"
             }
           },
           {
@@ -171,20 +171,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Standard/2. Variables and types/2.1 basic type hierarchy.md",
+                "file": "Standard/2. Variables and types/2.6 Типы.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2.1 basic type hierarchy"
+              "title": "Outline of 2.6 Типы"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -200,8 +201,14 @@
   },
   "active": "bb401bc5cac93e14",
   "lastOpenFiles": [
-    "Standard/4. Классы и структуры/4.3 Битовая мапа.md",
+    "Standard/4. Классы и структуры/4.1 Структуры и классы.md",
+    "Standard/2. Variables and types/2.6 Типы.md",
     "Standard/4. Классы и структуры/4.2 Наследование и интроспекция.md",
+    "Standard/3. Функции/3.4 Макросы.md",
+    "Standard/3. Функции/3.7 Контракты.md",
+    "Standard/3. Функции/3.1 Передача параметров в функцию.md",
+    "Standard/2. Variables and types/2.5 Указатели.md",
+    "Standard/4. Классы и структуры/4.3 Битовая мапа.md",
     "Standard/5. Шаблоны/5.1 Явные шаблоны.md",
     "Standard/4. Классы и структуры",
     "Standard/2. Variables and types/2.1 Базовая иерархия типов.md",
@@ -213,13 +220,10 @@
     "Standard/6. Сборка/6.5 Безопасность и защита от реверса.md",
     "Standard/6. Сборка/6.1 Экспорт функций.md",
     "Standard/6. Сборка",
-    "Standard/3. Функции/3.3 Контракты.md",
     "Standard/3. Функции/3.2 Перегрузка значений.md",
-    "Standard/2. Variables and types/2.5 Указатели.md",
     "Standard/1. Basic/1.1 О языке.md",
     "Standard/2. Variables and types/2.4 Литералы.md",
     "Standard/2. Variables and types/2.1 basic type hierarchy.md",
-    "Standard/3. Функции/3.1 Передача параметров в функцию.md",
     "Standard/1. Basic/1.1 Symbols.md",
     "Standard/3. Функции",
     "2.1 Значения и литералы.md",
@@ -227,7 +231,6 @@
     "Standard/2. Variables and types/2.1 Basic type hierarchy.md",
     "6. Указатели и ссылки.md",
     "Standard/Standard.md",
-    "Standard/Brain strorm.md",
     "Standard/2. Variables and types",
     "Standard/1. Basic",
     "Untitled 1",
