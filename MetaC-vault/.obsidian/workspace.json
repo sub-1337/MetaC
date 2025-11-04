@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/5. Шаблоны/5.2 Битовая мапа.md",
+                "file": "Standard/Brein strom.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.2 Битовая мапа"
+              "title": "Brein strom"
             }
           }
         ],
@@ -186,9 +186,9 @@
   },
   "active": "d68ea6386b05a3f6",
   "lastOpenFiles": [
+    "Standard/5. Шаблоны/5.2 Битовая мапа.md",
     "Standard/2. Variables and types/2.5 Указатели.md",
     "Standard/2. Variables and types/2.1 Базовая иерархия типов.md",
-    "Standard/5. Шаблоны/5.2 Битовая мапа.md",
     "Standard/5. Шаблоны/5.1 Явные шаблоны.md",
     "Standard/1. Basic/1.2 Symbols.md",
     "Standard/Brein strom.md",
