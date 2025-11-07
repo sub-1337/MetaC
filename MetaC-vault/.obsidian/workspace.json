@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/2. Variables and types/2.5 Указатели.md",
+                "file": "Standard/5. Шаблоны/5.2 Битовая мапа.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.5 Указатели"
-            }
-          },
-          {
-            "id": "bb401bc5cac93e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Standard/2. Variables and types/2.6 Типы.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2.6 Типы"
+              "title": "5.2 Битовая мапа"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -123,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Standard/2. Variables and types/2.6 Типы.md",
+                "file": "Standard/2. Variables and types/2.1 basic type hierarchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2.6 Типы"
+              "title": "Backlinks for 2.1 basic type hierarchy"
             }
           },
           {
@@ -142,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Standard/2. Variables and types/2.6 Типы.md",
+                "file": "Standard/2. Variables and types/2.1 basic type hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2.6 Типы"
+              "title": "Outgoing links from 2.1 basic type hierarchy"
             }
           },
           {
@@ -171,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Standard/2. Variables and types/2.6 Типы.md",
+                "file": "Standard/2. Variables and types/2.1 basic type hierarchy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2.6 Типы"
+              "title": "Outline of 2.1 basic type hierarchy"
             }
           }
         ],
@@ -201,17 +187,21 @@
   },
   "active": "bb401bc5cac93e14",
   "lastOpenFiles": [
-    "Standard/4. Классы и структуры/4.1 Структуры и классы.md",
-    "Standard/2. Variables and types/2.6 Типы.md",
+    "Standard/4. Классы и структуры/4.3 Битовая мапа.md",
     "Standard/4. Классы и структуры/4.2 Наследование и интроспекция.md",
-    "Standard/3. Функции/3.4 Макросы.md",
+    "Standard/4. Классы и структуры/4.1 Структуры и классы.md",
+    "Standard/4. Классы и структуры",
     "Standard/3. Функции/3.7 Контракты.md",
-    "Standard/3. Функции/3.1 Передача параметров в функцию.md",
+    "Standard/3. Функции/3.4 Макросы.md",
+    "Standard/2. Variables and types/2.6 Типы.md",
+    "Standard/5. Шаблоны/5.2 Битовая мапа.md",
+    "Standard/3. Функции/3.3 Контракты.md",
     "Standard/2. Variables and types/2.5 Указатели.md",
     "Standard/4. Классы и структуры/4.3 Битовая мапа.md",
     "Standard/5. Шаблоны/5.1 Явные шаблоны.md",
     "Standard/4. Классы и структуры",
     "Standard/2. Variables and types/2.1 Базовая иерархия типов.md",
+    "Standard/5. Шаблоны/5.1 Явные шаблоны.md",
     "Standard/1. Basic/1.2 Symbols.md",
     "Standard/Brein strom.md",
     "Standard/5. Шаблоны",
@@ -224,13 +214,11 @@
     "Standard/1. Basic/1.1 О языке.md",
     "Standard/2. Variables and types/2.4 Литералы.md",
     "Standard/2. Variables and types/2.1 basic type hierarchy.md",
+    "Standard/3. Функции/3.1 Передача параметров в функцию.md",
     "Standard/1. Basic/1.1 Symbols.md",
     "Standard/3. Функции",
     "2.1 Значения и литералы.md",
     "Welcome.md",
-    "Standard/2. Variables and types/2.1 Basic type hierarchy.md",
-    "6. Указатели и ссылки.md",
-    "Standard/Standard.md",
     "Standard/2. Variables and types",
     "Standard/1. Basic",
     "Untitled 1",
