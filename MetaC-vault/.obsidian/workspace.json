@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/2. Variables and types/2.2 Объявления переменной.md",
+                "file": "Standard/3. Функции/3.4 Макросы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.2 Объявления переменной"
+              "title": "3.4 Макросы"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Standard/2. Variables and types/2.2 Объявления переменной.md",
+                "file": "Standard/3. Функции/3.4 Макросы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2.2 Объявления переменной"
+              "title": "Backlinks for 3.4 Макросы"
             }
           },
           {
@@ -200,8 +200,8 @@
   },
   "active": "bb401bc5cac93e14",
   "lastOpenFiles": [
-    "Standard/3. Функции/3.4 Макросы.md",
     "Standard/2. Variables and types/2.2 Объявления переменной.md",
+    "Standard/3. Функции/3.4 Макросы.md",
     "Standard/2. Variables and types/2.6 Типы.md",
     "Standard/2. Variables and types/2.5 Указатели.md",
     "Standard/2. Variables and types/2.4 Литералы.md",
