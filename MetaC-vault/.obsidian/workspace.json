@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard/Brein strom.md",
+                "file": "Standard/1. Basic/1.1 О языке.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Brein strom"
+              "title": "1.1 О языке"
             }
           }
         ],
@@ -201,8 +201,10 @@
   },
   "active": "bb401bc5cac93e14",
   "lastOpenFiles": [
-    "Standard/3. Функции/3.4 Макросы.md",
     "Standard/2. Variables and types/2.6 Типы.md",
+    "Standard/Brein strom.md",
+    "Standard/1. Basic/1.1 О языке.md",
+    "Standard/3. Функции/3.4 Макросы.md",
     "Standard/4. Классы и структуры/4.1 Структуры и классы.md",
     "Standard/4. Классы и структуры/4.2 Наследование и интроспекция.md",
     "Standard/3. Функции/3.7 Контракты.md",
@@ -213,7 +215,6 @@
     "Standard/4. Классы и структуры",
     "Standard/2. Variables and types/2.1 Базовая иерархия типов.md",
     "Standard/1. Basic/1.2 Symbols.md",
-    "Standard/Brein strom.md",
     "Standard/5. Шаблоны",
     "Standard/2. Variables and types/2.2 Объявления переменной.md",
     "Standard/2. Variables and types/2.3 Строки.md",
@@ -221,7 +222,6 @@
     "Standard/6. Сборка/6.1 Экспорт функций.md",
     "Standard/6. Сборка",
     "Standard/3. Функции/3.2 Перегрузка значений.md",
-    "Standard/1. Basic/1.1 О языке.md",
     "Standard/2. Variables and types/2.4 Литералы.md",
     "Standard/2. Variables and types/2.1 basic type hierarchy.md",
     "Standard/1. Basic/1.1 Symbols.md",
