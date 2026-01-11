@@ -4,10 +4,15 @@ import argparse
 class Converter():
     def __init__(self, folder = "."):
         self.folder = folder
-        
+
     @staticmethod
     def getBasename(name):
         return name.removesuffix(".md")
+    
+    def addOverhead(self, htmlInner):
+        cssName = "theme.css"
+        html = f"<head> <link rel=\"stylesheet\" href=\"{cssName}\"> </head>" + "<body>" + htmlInner + "</body>"
+        return html
     
     def convertFile(self, filenameRaw):
         filename = self.getBasename(filenameRaw)
@@ -15,7 +20,7 @@ class Converter():
             contentMD = mdF.read()
             html = markdown.markdown(contentMD)
             with open(filename + ".html", "w") as htmlF:
-                htmlF.write(html)
+                htmlF.write(self.addOverhead(html))
     def convertAll(self):
         self.convertFile("README.md")
 
