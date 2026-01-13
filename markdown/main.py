@@ -50,7 +50,7 @@ class Converter():
     def convertAll(self, dirPath, outPath):
         files = self.getFileStruct(dirPath)
         for file in files:
-            print(file)
+            pass
         pass
     def convertOne(self, filename, outputFilename):
         self.convertFile(filename, outputFilename)
