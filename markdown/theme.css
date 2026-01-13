@@ -2,37 +2,46 @@ body {
     background-color: rgb(31, 31, 31);
     background: repeating-linear-gradient( 45deg, #1f1e1d, #1f1e1d 5px, rgb(25, 25, 25) 5px, rgb(25, 25, 25) 25px );
     font-family: verdana;
+    font-size: large;
     text-shadow: rgba(255, 204, 0, 0.71) 1px 0 6px;
+    color: rgb(251, 239, 223);
   }
-  .title
+  h1, h2, h3, h4, h5, h6
   {
-    padding-left: 50px;
+    color: rgb(218, 143, 62);
     text-shadow: rgba(255, 204, 0, 0.571) 1px 0 10px;
-  }
-  .text
-  {
-    font-size: 110%;
-    color: rgb(225, 180, 123);
   }
   br
   {
     line-height:0.5;
   }
-  .link
+  code 
+  {
+    display:inline-block;
+    text-shadow: rgb(255 150 10 / 38%) 1px 1px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #1f1e1d;
+    background-color: #f7f7fd;
+    background-image:  repeating-linear-gradient(45deg, #fff7ea 25%, transparent 25%, transparent 75%, #fff7ea 75%, #fff7ea), repeating-linear-gradient(45deg, #ffffff 25%, #f7f7fd 25%, #ffffff 75%, #fff7ea 75%, #fff7ea);
+    background-position: 0 0, 22px 22px;
+    background-size: 44px 44px;
+}
+  a
   {
     color: rgb(225, 180, 123);
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:center;*/
   }
   .linkItself
   {
     color: rgb(251, 239, 223);
     
   }
-  code
+  p
   {
-    color: rgb(251, 239, 223);
+    color: rgb(225, 180, 123);
   }
   .card
   {

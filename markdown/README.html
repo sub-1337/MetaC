@@ -1,1 +1,83 @@
-<head> <link rel="stylesheet" href="theme.css"> </head><body><p><code>pip install markdown</code></p></body>
+<head> <link rel="stylesheet" href="theme.css"> </head><body><h1 id="readme">.\README</h1>
+<p><a class="wikilink" href="/docs/README.html">README</a></p>
+<p>Можно определить несколько вариантов на одно действие.
+<code>case 0,2,3 =&gt; ...</code></p>
+<h3 id="_1">Пример с больше меньше</h3>
+<pre class="codehilite"><code>let const x = input!(int);
+
+match(x)
+{
+    &lt; 0 =&gt; println!(&quot;Меньше нуля&quot;);
+    0 =&gt; println!(&quot;Ноль&quot;);
+    &gt; 0 =&gt; println!(&quot;Больше&quot;);
+}
+</code></pre>
+
+<h3 id="_2">Пример с диапазоном</h3>
+<pre class="codehilite"><code>let const x = input!(int);
+
+match(x)
+{
+    [-10..0) =&gt; println!(&quot;1&quot;);
+    0 =&gt; println!(&quot;2&quot;);
+    [0..10], [20..30) =&gt; println!(&quot;3&quot;);
+    default =&gt; println!(&quot;4&quot;);
+}
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>-10</th>
+<th>1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-5</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td>2</td>
+</tr>
+<tr>
+<td>20</td>
+<td>3</td>
+</tr>
+<tr>
+<td>30</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3">Пример с перечислением</h3>
+<pre class="codehilite"><code>enum TypesOfConnection
+{
+    TCP,
+    UDP,
+    HTTP,
+    SSH
+}
+
+
+
+int const t = TypesOfConnection::TCP;
+
+match(t)
+{
+    TCP =&gt; print(&quot;Tcp&quot;);
+    UDP =&gt; print(&quot;Udp&quot;);
+    HTTP =&gt; print(&quot;Http&quot;);
+    SSH =&gt; {connectSsh(); print(&quot;Ssh&quot;);}
+    default =&gt; assert::raise_error();
+}
+</code></pre></body>
