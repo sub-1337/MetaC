@@ -10,6 +10,8 @@ class Converter():
 
     @staticmethod
     def getBasename(name):
+        if type(name) == str:
+            name = Path(name)
         return name.stem
     @staticmethod
     def addOverhead(htmlInner):
@@ -23,36 +25,34 @@ class Converter():
         for file in files:
             if not file.parent in fileByFolder:
                 fileByFolder[file.parent] = []
-            fileByFolder[file.parent].append({"path" : directoryPath / file, "name" : file.name})        
+            fileByFolder[file.parent].append({"path" : directoryPath / file, "name" : file.stem})        
         return fileByFolder
     def convertFile(self, filenameRaw, outputFilenameRaw):
-        """
-        filename = ""
-        if outputFilenameRaw is None:
-            filename = self.getBasename(filenameRaw)
-            outputFilenameRaw = filename + ".html"
-        """
-        filename = self.getBasename(filenameRaw)
+        print(filenameRaw)
         print(outputFilenameRaw)
+        filename = self.getBasename(filenameRaw)
+        #outputFilenameRaw += ".html"
+        if type(filenameRaw) == str:
+            filenameRaw = Path(filenameRaw)
         with filenameRaw.open("r", encoding='utf-8') as mdF:
             contentMD = mdF.read()
             # Add filename as header
-            contentMD = f"# {filename}\n {contentMD}"
-            html = markdown.markdown(contentMD, extensions=[
-                "fenced_code",   # ```code blocks```
-                "tables",        # таблицы
-                "toc",           # оглавление
-                "codehilite",     # подсветка кода
-                "extra",
-                WikiLinkExtension(base_url='/docs/', end_url='.html')
-            ])
+            contentMD = f"# {filename} \n\n {contentMD}"
+            html = markdown.markdown(contentMD, extensions=["wikilinks"],
+            extension_configs={
+                "wikilinks": {
+                    "base_url": "/docs/",
+                    "end_url": ".html",
+                }
+                }
+            )
             with open(outputFilenameRaw, "w", encoding='utf-8') as htmlF:
                 htmlF.write(self.addOverhead(html))
     def convertAll(self, dirPath, outPath):
         files = self.getFileStruct(dirPath)
         for folder in files:
             for file in files[folder]:
-                self.convertFile(file["path"], outPath + file["name"])
+                self.convertFile(file["path"], outPath + file["name"] + ".html")
         pass
     def convertOne(self, filename, outputFilename):
         self.convertFile(filename, outputFilename)
