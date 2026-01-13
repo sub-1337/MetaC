@@ -17,7 +17,7 @@
       "request": "launch",
       "program": "${file}",
       "console": "integratedTerminal",
-      "args": ["MetaC-vault/Standard"],
+      "args": ["MetaC-vault/Standard", "-o", "converted/"],
       "justMyCode": true
     }
     ]

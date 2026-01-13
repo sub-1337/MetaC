@@ -10,7 +10,7 @@ class Converter():
 
     @staticmethod
     def getBasename(name):
-        return name.removesuffix(".md")
+        return name.stem
     @staticmethod
     def addOverhead(htmlInner):
         cssName = "theme.css"
@@ -21,23 +21,20 @@ class Converter():
         files = [f.relative_to(directoryPath) for f in Path(directoryPath).rglob(self.fileType) if f.is_file()]
         fileByFolder = {}
         for file in files:
-            #print(file)
             if not file.parent in fileByFolder:
                 fileByFolder[file.parent] = []
-            fileByFolder[file.parent].append({"path" : file, "name" : file.name})
-        
+            fileByFolder[file.parent].append({"path" : directoryPath / file, "name" : file.name})        
         return fileByFolder
-        #for file in files:
-            
-        return files
     def convertFile(self, filenameRaw, outputFilenameRaw):
+        """
         filename = ""
         if outputFilenameRaw is None:
             filename = self.getBasename(filenameRaw)
             outputFilenameRaw = filename + ".html"
-        
+        """
+        filename = self.getBasename(filenameRaw)
         print(outputFilenameRaw)
-        with open(filenameRaw, "r", encoding='utf-8') as mdF:
+        with filenameRaw.open("r", encoding='utf-8') as mdF:
             contentMD = mdF.read()
             # Add filename as header
             contentMD = f"# {filename}\n {contentMD}"
@@ -53,8 +50,9 @@ class Converter():
                 htmlF.write(self.addOverhead(html))
     def convertAll(self, dirPath, outPath):
         files = self.getFileStruct(dirPath)
-        for file in files:
-            pass
+        for folder in files:
+            for file in files[folder]:
+                self.convertFile(file["path"], outPath + file["name"])
         pass
     def convertOne(self, filename, outputFilename):
         self.convertFile(filename, outputFilename)
