@@ -18,11 +18,15 @@ class Converter():
         return html
     #def generateMenu(self):
     def getFileStruct(self, directoryPath):
-        files = [f for f in Path(directoryPath).rglob(self.fileType) if f.is_file()]
-        for file in files:
-            print(file.relative_to(directoryPath))
+        files = [f.relative_to(directoryPath) for f in Path(directoryPath).rglob(self.fileType) if f.is_file()]
         fileByFolder = {}
-       
+        for file in files:
+            #print(file)
+            if not file.parent in fileByFolder:
+                fileByFolder[file.parent] = []
+            fileByFolder[file.parent].append({"path" : file, "name" : file.name})
+        
+        return fileByFolder
         #for file in files:
             
         return files
