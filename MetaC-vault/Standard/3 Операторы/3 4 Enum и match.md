@@ -15,17 +15,32 @@ match(x)
 
 
 ### Пример с диапазоном
+"Правильный вариант"
 ```
 let const x = input!(int);
 
 match(x)
 {
-	[-10..0) => println!("1");
+	fn::lam {in [-10..0]} => println!("1");
+	fn::lam {==0} => println!("2");
+	fn::lam {in [0..=10] or in [20..30]} => println!("3");
+	default => println!("4");
+}
+```
+[[4 7 Лямбды]]
+Сокращённый вариант.
+```
+let const x = input!(int);
+
+match(x)
+{
+	[-10..0] => println!("1");
 	0 => println!("2");
 	[0..10], [20..30) => println!("3");
 	default => println!("4");
 }
 ```
+Диапазоны [[2 7 Диапазоны]]
 
 | -10 | 1   |
 | --- | --- |
