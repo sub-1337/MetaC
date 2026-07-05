@@ -3,7 +3,7 @@
 #include <string>
 
 TEST_CASE("basic test") {
-    lexer lex;
+    mc::lexer lex;
     lex.parse("let a = 10;");
     //REQUIRE(1 + 1 == 2);
 }
