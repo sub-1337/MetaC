@@ -24,7 +24,7 @@ FetchContent_MakeAvailable(spdlog Catch2)
 
 #find_package(spdlog REQUIRED)
 
-add_executable(mcc main.cpp)
+add_executable(mcc "src/main.cpp" "src/lexer.cpp" "src/lexer.h")
 
 target_link_libraries(mcc PRIVATE spdlog::spdlog)
 
@@ -40,10 +40,10 @@ enable_testing()
 
 add_executable(mcc_tests
     tests/test_main.cpp
-)
+ "src/lexer.cpp" "src/lexer.h")
 
 target_link_libraries(mcc_tests PRIVATE
-    Catch2::Catch2WithMain
+    Catch2::Catch2WithMain spdlog::spdlog
 )
 
 list(APPEND CMAKE_MODULE_PATH ${catch2_SOURCE_DIR}/extras)
